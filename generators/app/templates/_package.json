@@ -29,9 +29,11 @@
         "test": "karma start test/karma.config.js"
     },
     "files": ["src", "dist"],
-    "homepage": "https://github.com/<%= projectAuthor %>/<%= projectName %>#readme",
+    "homepage":
+        "https://github.com/<%= projectAuthor %>/<%= projectName %>#readme",
     "bugs": {
-        "url": "https://github.com/<%= projectAuthor %>/<%= projectName %>/issues"
+        "url":
+            "https://github.com/<%= projectAuthor %>/<%= projectName %>/issues"
     },
     "dependencies": {
         "babel-preset-env": "^1.6.1"

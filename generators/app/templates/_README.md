@@ -11,6 +11,5 @@ npm i <%= projectName %>
 ```javascript
 import <%= projectNameCamelCase %> from '<%= projectName %>';
 ```
-
 ## API
 

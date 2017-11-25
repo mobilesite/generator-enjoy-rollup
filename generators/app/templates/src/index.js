@@ -3,7 +3,7 @@
  * @exports lib/<%= projectName %>
  * @author <%= projectAuthor %>
  * @email <%= projectEmail %>
- * @since  <%= projectCreatedAt %>
+ * @since <%= projectCreatedAt %>
  */
 
 import pkg from '../package.json';

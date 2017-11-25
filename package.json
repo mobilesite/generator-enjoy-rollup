@@ -1,34 +1,35 @@
 {
-  "name": "generator-enjoy-rollup",
-  "version": "1.0.0",
-  "description": "A generator of a JavaScript Module, packed with the Rollup.js.",
-  "main": "generators/app/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "generator-enjoy-rollup",
-    "Rollup.js",
-    "webapp",
-    "generator",
-    "yeoman-generator"
-  ],
-  "author": "paian <pai_an@qq.com>",
-  "license": "MIT",
-  "dependencies": {
-    "chalk": "^2.3.0",
-    "mkdirp": "^0.5.1",
-    "yeoman-generator": "^2.0.1",
-    "yeoman-welcome": "^1.0.1",
-    "yosay": "^2.0.1"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mobilesite/generator-enjoy-rollup.git"
-  },
-  "bugs": {
-    "url": "https://github.com/mobilesite/generator-enjoy-rollup/issues"
-  },
-  "homepage": "https://github.com/mobilesite/generator-enjoy-rollup#readme"
+    "name": "generator-enjoy-rollup",
+    "version": "1.0.0",
+    "description":
+        "A generator of a JavaScript Module, packed with the Rollup.js.",
+    "main": "generators/app/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "generator-enjoy-rollup",
+        "Rollup.js",
+        "webapp",
+        "generator",
+        "yeoman-generator"
+    ],
+    "author": "paian <pai_an@qq.com>",
+    "license": "MIT",
+    "dependencies": {
+        "chalk": "^2.3.0",
+        "mkdirp": "^0.5.1",
+        "yeoman-generator": "^2.0.1",
+        "yeoman-welcome": "^1.0.1",
+        "yosay": "^2.0.1"
+    },
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mobilesite/generator-enjoy-rollup.git"
+    },
+    "bugs": {
+        "url": "https://github.com/mobilesite/generator-enjoy-rollup/issues"
+    },
+    "homepage": "https://github.com/mobilesite/generator-enjoy-rollup#readme"
 }

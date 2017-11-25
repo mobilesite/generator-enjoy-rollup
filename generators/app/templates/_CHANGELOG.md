@@ -3,4 +3,3 @@
 ## <%= projectVersion %>
 
 * 首次发布
-
