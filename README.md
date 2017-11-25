@@ -11,6 +11,6 @@ npm i -g generator-enjoy-rollup
 
 ## 使用
 
-``bash
+```bash
 yo enjoy-rollup
 ```
