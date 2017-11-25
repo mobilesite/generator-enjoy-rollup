@@ -15,16 +15,16 @@
  * assert.ifError(value) // Throws value if value is truthy.
  */
 import chai from 'chai'; // assert是Node.js自带的断言模块
-import <%= projectName %> from '../src/index.js';
+import <%= projectNameCamelCase %> from '../src/index.js';
 
 import jsdom from 'mocha-jsdom';
 
 chai.should();
 
 describe('<%= projectName %>', () => {
-    describe('version', () => {
+    describe('libVersion', () => {
         it('返回当前库的版本号正确', () => {
-            // <%= projectName %>.version.should.equal('1.0.0');
+            // <%= projectNameCamelCase %>.libVersion.should.equal('1.0.0');
         });
     });
 });

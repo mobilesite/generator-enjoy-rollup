@@ -1,6 +1,6 @@
-<%= projectName %>
+# <%= projectName %>
 
-# 安装
+## 安装
 
 ```bash
 npm i <%= projectName %>
@@ -13,3 +13,8 @@ import <%= projectNameCamelCase %> from '<%= projectName %>';
 ```
 ## API
 
+### libVersion
+
+获得当前类库的版本号。
+
+### 

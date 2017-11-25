@@ -2,10 +2,10 @@
     "name": "<%= projectName %>",
     "version": "<%= projectVersion %>",
     "description":
-        "An library that can get the browser environment of the visitors for you.",
-    "main": "dist/<%= projectName %>.cjs.mjs",
-    "module": "dist/<%= projectName %>.es.mjs",
-    "jsnext:main": "dist/<%= projectName %>.es.mjs",
+        "<%= projectDesc %>",
+    "main": "dist/<%= projectNameCamelCase %>.cjs.mjs",
+    "module": "dist/<%= projectNameCamelCase %>.es.mjs",
+    "jsnext:main": "dist/<%= projectNameCamelCase %>.es.mjs",
     "author": {
         "name": "<%= projectAuthor %>",
         "email": "<%= projectEmail %>",
