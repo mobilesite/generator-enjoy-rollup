@@ -1,8 +1,7 @@
 {
     "name": "generator-enjoy-rollup",
     "version": "1.0.0",
-    "description":
-        "A generator of a JavaScript Module, packed with the Rollup.js.",
+    "description": "A generator of a JavaScript Module, packed with the Rollup.js.",
     "main": "generators/app/index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"

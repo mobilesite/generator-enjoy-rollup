@@ -1,7 +1,7 @@
 /**
  *
  * @author paian
- * @email
+ * @email  pai_an@qq.com
  * @since  17/3/31
  */
 
@@ -16,8 +16,8 @@ var istanbul = require('rollup-plugin-istanbul');
 var eslint = require('rollup-plugin-eslint');
 var replace = require('rollup-plugin-replace');
 // Rollup的模块引用只支持 ES6 Module，其他的需要采用 npm 和 commonjs 的插件去解决
-var json = require('rollup-plugin-json');// allows Rollup to import data = requirea JSON file
-var commonjs = require('rollup-plugin-commonjs');// the majority of packages on npm are exposed as CommonJS modules. We need to convert CommonJS to ES2015 before Rollup can process them.
+var json = require('rollup-plugin-json'); // allows Rollup to import data = requirea JSON file
+var commonjs = require('rollup-plugin-commonjs'); // the majority of packages on npm are exposed as CommonJS modules. We need to convert CommonJS to ES2015 before Rollup can process them.
 
 var pkg = require('../package.json');
 var external = Object.keys(pkg.dependencies);
@@ -80,7 +80,7 @@ module.exports = function(config) {
             ],
             external: external,
             format: 'iife',
-            moduleName: '<%= projectName %>',// UMD、IIFE模式中需要 moduleName
+            moduleName: '<%= projectName %>', // UMD、IIFE模式中需要 moduleName
             sourceMap: 'inline'
         },
 
@@ -126,5 +126,5 @@ module.exports = function(config) {
         // 并发级别
         // 需要同时打开多少个浏览器，infinity－无穷大
         concurrency: Infinity
-    })
-}
+    });
+};
